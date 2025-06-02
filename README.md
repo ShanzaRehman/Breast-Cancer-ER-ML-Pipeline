@@ -2,7 +2,6 @@
 
 This project uses supervised machine learning models to classify Estrogen Receptor (ER) status (positive or negative) in breast cancer patients using gene expression (mRNA) microarray data. We implemented feature selection, normalization, classification using Random Forest and Support Vector Machine (SVM), and model evaluation using PCA, confusion matrices, and ROC curves.
 
----
 
 ## 🧬 Dataset
 
@@ -13,7 +12,6 @@ This project uses supervised machine learning models to classify Estrogen Recept
 
 > *Note:* Raw data is not included due to size and privacy; download directly from [cBioPortal](https://www.cbioportal.org/study/summary?id=brca_metabric)
 
----
 
 ## 🛠️ Workflow
 
@@ -37,7 +35,6 @@ This project uses supervised machine learning models to classify Estrogen Recept
    - ROC-AUC and ROC curves
    - PCA visualization for dimensionality reduction
 
----
 
 ## 📊 Results Summary
 
@@ -49,6 +46,5 @@ This project uses supervised machine learning models to classify Estrogen Recept
 - **PCA** clearly separated ER+ and ER− groups, indicating strong underlying patterns.
 - Both models showed high classification performance with slightly better generalization in SVM (fewer false positives).
 
----
 
 
